@@ -19,7 +19,7 @@
     align-items: center;  
      
 }
-.Contenido__paginaGridd{
+.Contenido__pagina{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -82,38 +82,6 @@
     transition: all 400ms;
     
 }
-
-
-
-/*main th {
-    color: blue;
-    
-
-}
-nav a {
-    color: rgb(230, 111, 14);
-    text-decoration: none;
-}
-html{
-    background-image: linear-gradient(135deg, 
-#00B7D4, #505488, #2F3F80,#a5239f,
-rgb(77, 30, 63) ,#5A4894,#A950A1, #DD7CAE);
-background-size: 500%;
-animation: fanimado 5s infinite; 
-}
-
-@keyframes fanimado{
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-}
-*/
 
 .imgfooter{
     width: 30px;
@@ -221,7 +189,6 @@ animation: fanimado 5s infinite;
     
 }
 .informacion__texto{
-    display: flex;
     display: flex;
     text-align: center;
     justify-content: center;
