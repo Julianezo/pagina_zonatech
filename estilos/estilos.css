@@ -58,10 +58,6 @@
     
 }
 
-.contenidoPagina__img{
-    display: flex;
-    justify-content: center;
-}
 .img__contenido:hover{
     transform: scale(1.15);
 }
