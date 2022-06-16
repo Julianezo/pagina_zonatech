@@ -8,7 +8,7 @@
     
 }
 @mixin tamaño-logo-index{
-    width: 140px;
+    width: 110px;
     padding: 0px 0px 0px 50px;
 }
 
@@ -68,7 +68,7 @@
                 font-size: small;
             }
             @include movil{
-                font-size: small;
+                font-size: 13px;
             }
     }
     .textoinicio{

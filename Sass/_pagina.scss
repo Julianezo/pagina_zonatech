@@ -81,8 +81,37 @@
 
 //Ubicacion
 .html__ubicacion{
-    background-color: $color-paginas-secundarias
+    background-color: $color-paginas-secundarias ;
 }
+.gridd__ubicacion{ 
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+
+    .imagen__logo__ubicacion{
+    width: 250px;
+    margin-bottom: 30px;
+    @include desktop{
+        width: 150px;
+    }
+    }
+    .imagen__ubicacion__local{
+    width: 500px;
+    @include desktop{
+        width: 300px;
+    }
+
+    }
+}
+
+.logoubicacion{   
+     display: flex;
+    justify-content: center;
+  .logos__ubicacion{
+    width: 50px;
+    margin-top: 30px;   
+    }  
+}  
 
 .header__ubicacion{
     @include nav();
@@ -123,8 +152,22 @@
     .img__grid__historia{
         margin: 4px;
     }
+    .img__historia{
+     @include gridd{
+        height: 100px;
+        width: 100px;
+    }
+    @include desktop{
+        width: 100px;
+    }
+    @include movil{
+        width: 100px;
+    }
+}
+   
 
 }
+
 
 
 //Contacto
@@ -135,4 +178,29 @@
 
 .header__contacto{
     @include header-pagina-sec();
+}
+
+.contacto__contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 12%;
+    flex-wrap: wrap;
+    .imagen__contacto{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    @include desktop {
+        width: 110px;
+        height: 110px;
+    }
+    @include movil{
+        height: 100px;
+        width: 100px;
+    }
+    }
+      
+}
+
+.imagen__contacto:hover{
+    transform: $hover-agrandar
 }

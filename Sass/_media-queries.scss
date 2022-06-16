@@ -1,10 +1,10 @@
-@mixin movil {
+@mixin desktop {
     @media  (max-width:  576px){
         @content;
 
     }
 }
-@mixin desktop {
+@mixin movil {
     @media   (max-width: 360px){
         @content;
 
